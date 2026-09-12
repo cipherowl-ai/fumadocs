@@ -16,6 +16,7 @@ const templates = [
   'react-router-spa',
   'waku',
   ['next', '+next+fuma-docs-mdx'],
+  ['cipherowl-dataroom', '+next+cipherowl-dataroom'],
   ['next-static', '+next+fuma-docs-mdx+static'],
 ];
 

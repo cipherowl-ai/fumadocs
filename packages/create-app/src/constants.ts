@@ -11,6 +11,7 @@ export const isCI = Boolean(process.env.CI);
 export interface TemplateInfo {
   value:
     | '+next+fuma-docs-mdx'
+    | '+next+cipherowl-dataroom'
     | 'astro'
     | 'waku'
     | 'react-router'
@@ -32,6 +33,13 @@ export interface TemplateInfo {
 }
 
 export const templates: TemplateInfo[] = [
+  {
+    value: '+next+cipherowl-dataroom',
+    label: 'Next.js: CipherOwl Dataroom',
+    hint: 'recommended: CipherOwl theme, dark by default',
+    appDir: '',
+    rootProviderPath: 'app/layout.tsx',
+  },
   {
     value: '+next+fuma-docs-mdx',
     label: 'Next.js: Fumadocs MDX',
